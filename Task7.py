@@ -10,7 +10,7 @@ def isMatch(s, p):
             row.append(False)
         dp.append(row)
     #print(dp)
-    # An empty pattern matches an empty string
+
     dp[0][0] = True
 
     # Fill in the first row
